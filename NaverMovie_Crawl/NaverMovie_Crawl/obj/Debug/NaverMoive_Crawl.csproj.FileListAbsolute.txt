@@ -1,0 +1,17 @@
+C:\Users\NEXOL\source\repos\boardTest\boardTest\bin\Debug\boardTest.exe.config
+C:\Users\NEXOL\source\repos\boardTest\boardTest\bin\Debug\boardTest.exe
+C:\Users\NEXOL\source\repos\boardTest\boardTest\bin\Debug\boardTest.pdb
+C:\Users\NEXOL\source\repos\boardTest\boardTest\bin\Debug\HtmlAgilityPack.dll
+C:\Users\NEXOL\source\repos\boardTest\boardTest\bin\Debug\WebDriver.dll
+C:\Users\NEXOL\source\repos\boardTest\boardTest\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\NEXOL\source\repos\boardTest\boardTest\bin\Debug\HtmlAgilityPack.xml
+C:\Users\NEXOL\source\repos\boardTest\boardTest\bin\Debug\WebDriver.xml
+C:\Users\NEXOL\source\repos\boardTest\boardTest\obj\Debug\boardTest.Main.resources
+C:\Users\NEXOL\source\repos\boardTest\boardTest\obj\Debug\boardTest.Properties.Resources.resources
+C:\Users\NEXOL\source\repos\boardTest\boardTest\obj\Debug\NaverMoive_Crawl.csproj.GenerateResource.cache
+C:\Users\NEXOL\source\repos\boardTest\boardTest\obj\Debug\NaverMoive_Crawl.csproj.CoreCompileInputs.cache
+C:\Users\NEXOL\source\repos\boardTest\boardTest\obj\Debug\NaverMoive_Crawl.csproj.CopyComplete
+C:\Users\NEXOL\source\repos\boardTest\boardTest\obj\Debug\boardTest.exe
+C:\Users\NEXOL\source\repos\boardTest\boardTest\obj\Debug\boardTest.pdb
+C:\Users\NEXOL\source\repos\boardTest\boardTest\obj\Debug\NaverMoive_Crawl.csprojAssemblyReference.cache
+C:\Users\NEXOL\source\repos\boardTest\boardTest\obj\Debug\boardTest.Loading.resources
