@@ -1,4 +1,4 @@
-﻿namespace boardTest
+﻿namespace NaverMovie_Crawl
 {
     partial class Loading
     {

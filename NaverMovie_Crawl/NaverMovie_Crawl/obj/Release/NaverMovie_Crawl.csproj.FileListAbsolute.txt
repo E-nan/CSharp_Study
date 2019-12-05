@@ -1,0 +1,11 @@
+D:\Desktop\NaverMovie_Crawl.exe.config
+D:\Desktop\NaverMovie_Crawl.exe
+D:\Desktop\NaverMovie_Crawl.pdb
+C:\enan\repo\NaverMovie_Crawl\NaverMovie_Crawl\obj\Release\NaverMovie_Crawl.Loading.resources
+C:\enan\repo\NaverMovie_Crawl\NaverMovie_Crawl\obj\Release\NaverMovie_Crawl.Main.resources
+C:\enan\repo\NaverMovie_Crawl\NaverMovie_Crawl\obj\Release\NaverMovie_Crawl.Properties.Resources.resources
+C:\enan\repo\NaverMovie_Crawl\NaverMovie_Crawl\obj\Release\NaverMovie_Crawl.csproj.GenerateResource.cache
+C:\enan\repo\NaverMovie_Crawl\NaverMovie_Crawl\obj\Release\NaverMovie_Crawl.csproj.CoreCompileInputs.cache
+C:\enan\repo\NaverMovie_Crawl\NaverMovie_Crawl\obj\Release\NaverMovie_Crawl.csproj.CopyComplete
+C:\enan\repo\NaverMovie_Crawl\NaverMovie_Crawl\obj\Release\NaverMovie_Crawl.exe
+C:\enan\repo\NaverMovie_Crawl\NaverMovie_Crawl\obj\Release\NaverMovie_Crawl.pdb

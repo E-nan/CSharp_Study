@@ -12,7 +12,7 @@ using System.Windows.Forms;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
-namespace boardTest
+namespace NaverMovie_Crawl
 {
     public partial class Main : Form
     {

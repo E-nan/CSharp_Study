@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace boardTest
+namespace NaverMovie_Crawl
 {
     public partial class Loading : Form
     {
