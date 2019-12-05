@@ -28,82 +28,45 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lv_boxoffice = new System.Windows.Forms.ListView();
-            this.lv_num = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.lv_name = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.lv_level = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.lv_openDate = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.lv_daily = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.lv_stack = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.label1 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.lv_nowmovie = new System.Windows.Forms.ListView();
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.dGV_BoxOffice = new System.Windows.Forms.DataGridView();
+            this.boxOffice_MovieTitle = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.boxOffice_MovieLevel = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.boxOffice_MovieOpenDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.boxOffice_Daily = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.boxOffice_Stack = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dGV_NowMovie = new System.Windows.Forms.DataGridView();
+            this.nowMovie_Title = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nowMovie_Gerne = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nowMovie_ShowTime = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nowMovie_Level = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nowMovie_OpenDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nowMovie_Star = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nowMovie_Ticket = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dGV_CommingSoon = new System.Windows.Forms.DataGridView();
+            this.commingSoon_Title = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.commingSoon_Genre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.commingSoon_ShowTime = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.commingSoon_Level = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.commingSoon_OpenDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.commingSoon_Expec = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
+            this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dGV_BoxOffice)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dGV_NowMovie)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dGV_CommingSoon)).BeginInit();
             this.SuspendLayout();
-            // 
-            // lv_boxoffice
-            // 
-            this.lv_boxoffice.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.lv_num,
-            this.lv_name,
-            this.lv_level,
-            this.lv_openDate,
-            this.lv_daily,
-            this.lv_stack});
-            this.lv_boxoffice.GridLines = true;
-            this.lv_boxoffice.HideSelection = false;
-            this.lv_boxoffice.Location = new System.Drawing.Point(30, 10);
-            this.lv_boxoffice.Name = "lv_boxoffice";
-            this.lv_boxoffice.Size = new System.Drawing.Size(623, 250);
-            this.lv_boxoffice.TabIndex = 0;
-            this.lv_boxoffice.UseCompatibleStateImageBehavior = false;
-            this.lv_boxoffice.View = System.Windows.Forms.View.Details;
-            // 
-            // lv_num
-            // 
-            this.lv_num.Text = "번호";
-            this.lv_num.Width = 36;
-            // 
-            // lv_name
-            // 
-            this.lv_name.Text = "영화제목";
-            this.lv_name.Width = 100;
-            // 
-            // lv_level
-            // 
-            this.lv_level.Text = "관람등급";
-            this.lv_level.Width = 90;
-            // 
-            // lv_openDate
-            // 
-            this.lv_openDate.Text = "개봉날짜";
-            this.lv_openDate.Width = 90;
-            // 
-            // lv_daily
-            // 
-            this.lv_daily.Text = "일간관람객";
-            this.lv_daily.Width = 80;
-            // 
-            // lv_stack
-            // 
-            this.lv_stack.Text = "누적관람객";
-            this.lv_stack.Width = 80;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(287, 35);
+            this.label1.Location = new System.Drawing.Point(294, 23);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(109, 12);
             this.label1.TabIndex = 1;
@@ -113,6 +76,7 @@
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Location = new System.Drawing.Point(12, 81);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -121,7 +85,7 @@
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.lv_boxoffice);
+            this.tabPage1.Controls.Add(this.dGV_BoxOffice);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
@@ -132,7 +96,7 @@
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.lv_nowmovie);
+            this.tabPage2.Controls.Add(this.dGV_NowMovie);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -141,59 +105,173 @@
             this.tabPage2.Text = "현재 상영영화";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // lv_nowmovie
+            // tabPage3
             // 
-            this.lv_nowmovie.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader1,
-            this.columnHeader2,
-            this.columnHeader7,
-            this.columnHeader3,
-            this.columnHeader4,
-            this.columnHeader5,
-            this.columnHeader6});
-            this.lv_nowmovie.GridLines = true;
-            this.lv_nowmovie.HideSelection = false;
-            this.lv_nowmovie.Location = new System.Drawing.Point(31, 22);
-            this.lv_nowmovie.Name = "lv_nowmovie";
-            this.lv_nowmovie.Size = new System.Drawing.Size(621, 226);
-            this.lv_nowmovie.TabIndex = 1;
-            this.lv_nowmovie.UseCompatibleStateImageBehavior = false;
-            this.lv_nowmovie.View = System.Windows.Forms.View.Details;
+            this.tabPage3.Controls.Add(this.dGV_CommingSoon);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(688, 278);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "개봉 예정영화";
+            this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // columnHeader1
+            // dGV_BoxOffice
             // 
-            this.columnHeader1.Text = "번호";
-            this.columnHeader1.Width = 36;
+            this.dGV_BoxOffice.AllowUserToAddRows = false;
+            this.dGV_BoxOffice.AllowUserToDeleteRows = false;
+            this.dGV_BoxOffice.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dGV_BoxOffice.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dGV_BoxOffice.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.boxOffice_MovieTitle,
+            this.boxOffice_MovieLevel,
+            this.boxOffice_MovieOpenDate,
+            this.boxOffice_Daily,
+            this.boxOffice_Stack});
+            this.dGV_BoxOffice.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dGV_BoxOffice.Location = new System.Drawing.Point(3, 3);
+            this.dGV_BoxOffice.Name = "dGV_BoxOffice";
+            this.dGV_BoxOffice.ReadOnly = true;
+            this.dGV_BoxOffice.RowTemplate.Height = 23;
+            this.dGV_BoxOffice.Size = new System.Drawing.Size(682, 272);
+            this.dGV_BoxOffice.TabIndex = 1;
+            this.dGV_BoxOffice.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dGV_BoxOffice_CellDoubleClick);
+            this.dGV_BoxOffice.RowPostPaint += new System.Windows.Forms.DataGridViewRowPostPaintEventHandler(this.dGV_BoxOffice_RowPostPaint);
             // 
-            // columnHeader2
+            // boxOffice_MovieTitle
             // 
-            this.columnHeader2.Text = "영화제목";
-            this.columnHeader2.Width = 100;
+            this.boxOffice_MovieTitle.HeaderText = "영화제목";
+            this.boxOffice_MovieTitle.Name = "boxOffice_MovieTitle";
             // 
-            // columnHeader3
+            // boxOffice_MovieLevel
             // 
-            this.columnHeader3.Text = "개봉날짜";
-            this.columnHeader3.Width = 90;
+            this.boxOffice_MovieLevel.HeaderText = "관람등급";
+            this.boxOffice_MovieLevel.Name = "boxOffice_MovieLevel";
             // 
-            // columnHeader4
+            // boxOffice_MovieOpenDate
             // 
-            this.columnHeader4.Text = "네티즌평점";
-            this.columnHeader4.Width = 90;
+            this.boxOffice_MovieOpenDate.HeaderText = "개봉날짜";
+            this.boxOffice_MovieOpenDate.Name = "boxOffice_MovieOpenDate";
             // 
-            // columnHeader5
+            // boxOffice_Daily
             // 
-            this.columnHeader5.Text = "예매율";
-            this.columnHeader5.Width = 80;
+            this.boxOffice_Daily.HeaderText = "일간관람객";
+            this.boxOffice_Daily.Name = "boxOffice_Daily";
             // 
-            // columnHeader6
+            // boxOffice_Stack
             // 
-            this.columnHeader6.Text = "상영시간";
-            this.columnHeader6.Width = 80;
+            this.boxOffice_Stack.HeaderText = "누적관람객";
+            this.boxOffice_Stack.Name = "boxOffice_Stack";
             // 
-            // columnHeader7
+            // dGV_NowMovie
             // 
-            this.columnHeader7.Text = "관람등급";
-            this.columnHeader7.Width = 100;
+            this.dGV_NowMovie.AllowUserToAddRows = false;
+            this.dGV_NowMovie.AllowUserToDeleteRows = false;
+            this.dGV_NowMovie.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dGV_NowMovie.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dGV_NowMovie.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.nowMovie_Title,
+            this.nowMovie_Gerne,
+            this.nowMovie_ShowTime,
+            this.nowMovie_Level,
+            this.nowMovie_OpenDate,
+            this.nowMovie_Star,
+            this.nowMovie_Ticket});
+            this.dGV_NowMovie.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dGV_NowMovie.Location = new System.Drawing.Point(3, 3);
+            this.dGV_NowMovie.Name = "dGV_NowMovie";
+            this.dGV_NowMovie.ReadOnly = true;
+            this.dGV_NowMovie.RowTemplate.Height = 23;
+            this.dGV_NowMovie.Size = new System.Drawing.Size(682, 272);
+            this.dGV_NowMovie.TabIndex = 2;
+            this.dGV_NowMovie.RowPostPaint += new System.Windows.Forms.DataGridViewRowPostPaintEventHandler(this.dGV_NowMovie_RowPostPaint);
+            // 
+            // nowMovie_Title
+            // 
+            this.nowMovie_Title.HeaderText = "영화제목";
+            this.nowMovie_Title.Name = "nowMovie_Title";
+            // 
+            // nowMovie_Gerne
+            // 
+            this.nowMovie_Gerne.HeaderText = "장르";
+            this.nowMovie_Gerne.Name = "nowMovie_Gerne";
+            // 
+            // nowMovie_ShowTime
+            // 
+            this.nowMovie_ShowTime.HeaderText = "상영시간";
+            this.nowMovie_ShowTime.Name = "nowMovie_ShowTime";
+            // 
+            // nowMovie_Level
+            // 
+            this.nowMovie_Level.HeaderText = "관람등급";
+            this.nowMovie_Level.Name = "nowMovie_Level";
+            // 
+            // nowMovie_OpenDate
+            // 
+            this.nowMovie_OpenDate.HeaderText = "개봉날짜";
+            this.nowMovie_OpenDate.Name = "nowMovie_OpenDate";
+            // 
+            // nowMovie_Star
+            // 
+            this.nowMovie_Star.HeaderText = "네티즌평점";
+            this.nowMovie_Star.Name = "nowMovie_Star";
+            // 
+            // nowMovie_Ticket
+            // 
+            this.nowMovie_Ticket.HeaderText = "예매율";
+            this.nowMovie_Ticket.Name = "nowMovie_Ticket";
+            // 
+            // dGV_CommingSoon
+            // 
+            this.dGV_CommingSoon.AllowUserToAddRows = false;
+            this.dGV_CommingSoon.AllowUserToDeleteRows = false;
+            this.dGV_CommingSoon.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dGV_CommingSoon.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dGV_CommingSoon.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.commingSoon_Title,
+            this.commingSoon_Genre,
+            this.commingSoon_ShowTime,
+            this.commingSoon_Level,
+            this.commingSoon_OpenDate,
+            this.commingSoon_Expec});
+            this.dGV_CommingSoon.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dGV_CommingSoon.Location = new System.Drawing.Point(3, 3);
+            this.dGV_CommingSoon.Name = "dGV_CommingSoon";
+            this.dGV_CommingSoon.ReadOnly = true;
+            this.dGV_CommingSoon.RowTemplate.Height = 23;
+            this.dGV_CommingSoon.Size = new System.Drawing.Size(682, 272);
+            this.dGV_CommingSoon.TabIndex = 3;
+            this.dGV_CommingSoon.RowPostPaint += new System.Windows.Forms.DataGridViewRowPostPaintEventHandler(this.dGV_CommingSoon_RowPostPaint);
+            // 
+            // commingSoon_Title
+            // 
+            this.commingSoon_Title.HeaderText = "영화제목";
+            this.commingSoon_Title.Name = "commingSoon_Title";
+            // 
+            // commingSoon_Genre
+            // 
+            this.commingSoon_Genre.HeaderText = "장르";
+            this.commingSoon_Genre.Name = "commingSoon_Genre";
+            // 
+            // commingSoon_ShowTime
+            // 
+            this.commingSoon_ShowTime.HeaderText = "상영시간";
+            this.commingSoon_ShowTime.Name = "commingSoon_ShowTime";
+            // 
+            // commingSoon_Level
+            // 
+            this.commingSoon_Level.HeaderText = "관람등급";
+            this.commingSoon_Level.Name = "commingSoon_Level";
+            // 
+            // commingSoon_OpenDate
+            // 
+            this.commingSoon_OpenDate.HeaderText = "개봉예정날짜";
+            this.commingSoon_OpenDate.Name = "commingSoon_OpenDate";
+            // 
+            // commingSoon_Expec
+            // 
+            this.commingSoon_Expec.HeaderText = "기대지수";
+            this.commingSoon_Expec.Name = "commingSoon_Expec";
             // 
             // Main
             // 
@@ -208,31 +286,41 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
+            this.tabPage3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dGV_BoxOffice)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dGV_NowMovie)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dGV_CommingSoon)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.ListView lv_boxoffice;
-        private System.Windows.Forms.ColumnHeader lv_num;
-        private System.Windows.Forms.ColumnHeader lv_name;
-        private System.Windows.Forms.ColumnHeader lv_level;
-        private System.Windows.Forms.ColumnHeader lv_openDate;
-        private System.Windows.Forms.ColumnHeader lv_daily;
-        private System.Windows.Forms.ColumnHeader lv_stack;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.ListView lv_nowmovie;
-        private System.Windows.Forms.ColumnHeader columnHeader1;
-        private System.Windows.Forms.ColumnHeader columnHeader2;
-        private System.Windows.Forms.ColumnHeader columnHeader3;
-        private System.Windows.Forms.ColumnHeader columnHeader4;
-        private System.Windows.Forms.ColumnHeader columnHeader5;
-        private System.Windows.Forms.ColumnHeader columnHeader6;
-        private System.Windows.Forms.ColumnHeader columnHeader7;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.DataGridView dGV_BoxOffice;
+        private System.Windows.Forms.DataGridViewTextBoxColumn boxOffice_MovieTitle;
+        private System.Windows.Forms.DataGridViewTextBoxColumn boxOffice_MovieLevel;
+        private System.Windows.Forms.DataGridViewTextBoxColumn boxOffice_MovieOpenDate;
+        private System.Windows.Forms.DataGridViewTextBoxColumn boxOffice_Daily;
+        private System.Windows.Forms.DataGridViewTextBoxColumn boxOffice_Stack;
+        private System.Windows.Forms.DataGridView dGV_NowMovie;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nowMovie_Title;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nowMovie_Gerne;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nowMovie_ShowTime;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nowMovie_Level;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nowMovie_OpenDate;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nowMovie_Star;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nowMovie_Ticket;
+        private System.Windows.Forms.DataGridView dGV_CommingSoon;
+        private System.Windows.Forms.DataGridViewTextBoxColumn commingSoon_Title;
+        private System.Windows.Forms.DataGridViewTextBoxColumn commingSoon_Genre;
+        private System.Windows.Forms.DataGridViewTextBoxColumn commingSoon_ShowTime;
+        private System.Windows.Forms.DataGridViewTextBoxColumn commingSoon_Level;
+        private System.Windows.Forms.DataGridViewTextBoxColumn commingSoon_OpenDate;
+        private System.Windows.Forms.DataGridViewTextBoxColumn commingSoon_Expec;
     }
 }
