@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using System.Diagnostics;
 
 namespace NaverMovie_Crawl
 {
@@ -19,16 +20,23 @@ namespace NaverMovie_Crawl
         Loading loading = new Loading();
         public Main()
         {
-            InitializeComponent();   
+            InitializeComponent();      
         }
 
         private void Main_Load(object sender, EventArgs e)
         {
-            loading.Show();
+            var sw = new Stopwatch();
+            sw.Start();
 
-            //크롬브라우저 숨기기
+            loading.Show();
+            
+            //크롬브라우저 숨기기, 정보바 숨기기, 이미지 로딩x
             var options = new ChromeOptions();
             options.AddArgument("headless");
+            options.AddExcludedArgument("enable-automation");
+            options.AddAdditionalCapability("useAutomationExtension", false);
+            options.AddUserProfilePreference("profile.default_content_setting_values.images", 2);
+
 
             //크롬드라이버 숨기기
             ChromeDriverService service = ChromeDriverService.CreateDefaultService();
@@ -37,6 +45,7 @@ namespace NaverMovie_Crawl
             //박스오피스흥행순위
             using (var boxoffice = new ChromeDriver(service, options))
             {
+                Application.DoEvents();
                 boxoffice.Navigate().GoToUrl("http://www.naver.com");
 
                 var retrieve = boxoffice.FindElement(By.Id("query"));
@@ -45,6 +54,7 @@ namespace NaverMovie_Crawl
 
                 for (var num = 1; num < 9; num++)
                 {
+                    Application.DoEvents();
                     var t = "li[" + num + "]";
                     var name = boxoffice.FindElement(
                         By.XPath("//*[@id=\"main_pack\"]/div[1]/div/div[2]/div/div[1]/div[2]/div[1]/ul/" + t));
@@ -269,7 +279,7 @@ namespace NaverMovie_Crawl
                 }
                 loading.Hide();
             }
-        
+
             #region 크롬브라우저 보이는 코드
             //                        IWebDriver driver = new ChromeDriver();
             //                 
@@ -299,6 +309,11 @@ namespace NaverMovie_Crawl
             //
             //            driver.Close();
             #endregion
+
+            sw.Stop();
+            var time = sw.ElapsedMilliseconds / 1000;
+            Console.WriteLine(sw.ElapsedMilliseconds + "ms");
+            Console.WriteLine(time);
         }
 
         //설명 링크 https://vesselsdiary.tistory.com/81
@@ -336,6 +351,6 @@ namespace NaverMovie_Crawl
         {
             //DataGridViewRow dr = dGV_BoxOffice.SelectedRows[0];
             //MessageBox.Show(dGV_BoxOffice.selected);
-        }
+        } 
     }
 }
