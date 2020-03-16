@@ -1,4 +1,5 @@
 ## C# 람다식
+참고링크 : [링크](http://www.csharpstudy.com/CSharp/CSharp-lambda.aspx)
 C# 3.0부터 지원하는 => 연산자는 C#에서 람다식(Lambda Expression)을 표현할 때 사용한다.
 람다식은 무명 메소드와 비슷하게 무명 함수(anonymous function)을 표현하는데 사용된다. 람다식은 예제와 같이 입력 파라미터 (n개)를 => 연산자 왼쪽에, 실행 문장들을 => 연산자 오른쪽에 둔다.
 ```
