@@ -1,0 +1,15 @@
+C:\enan\repo\NaverMovie_Crawl\NaverMovie_Crawl\bin\x86\Debug\NaverMovie_Crawl.exe.config
+C:\enan\repo\NaverMovie_Crawl\NaverMovie_Crawl\bin\x86\Debug\NaverMovie_Crawl.exe
+C:\enan\repo\NaverMovie_Crawl\NaverMovie_Crawl\bin\x86\Debug\NaverMovie_Crawl.pdb
+C:\enan\repo\NaverMovie_Crawl\NaverMovie_Crawl\bin\x86\Debug\HtmlAgilityPack.dll
+C:\enan\repo\NaverMovie_Crawl\NaverMovie_Crawl\bin\x86\Debug\HtmlAgilityPack.pdb
+C:\enan\repo\NaverMovie_Crawl\NaverMovie_Crawl\bin\x86\Debug\HtmlAgilityPack.xml
+C:\enan\repo\NaverMovie_Crawl\NaverMovie_Crawl\obj\x86\Debug\NaverMovie_Crawl.csprojAssemblyReference.cache
+C:\enan\repo\NaverMovie_Crawl\NaverMovie_Crawl\obj\x86\Debug\NaverMovie_Crawl.Loading.resources
+C:\enan\repo\NaverMovie_Crawl\NaverMovie_Crawl\obj\x86\Debug\NaverMovie_Crawl.Main.resources
+C:\enan\repo\NaverMovie_Crawl\NaverMovie_Crawl\obj\x86\Debug\NaverMovie_Crawl.Properties.Resources.resources
+C:\enan\repo\NaverMovie_Crawl\NaverMovie_Crawl\obj\x86\Debug\NaverMovie_Crawl.csproj.GenerateResource.cache
+C:\enan\repo\NaverMovie_Crawl\NaverMovie_Crawl\obj\x86\Debug\NaverMovie_Crawl.csproj.CoreCompileInputs.cache
+C:\enan\repo\NaverMovie_Crawl\NaverMovie_Crawl\obj\x86\Debug\NaverMovie_Crawl.csproj.CopyComplete
+C:\enan\repo\NaverMovie_Crawl\NaverMovie_Crawl\obj\x86\Debug\NaverMovie_Crawl.exe
+C:\enan\repo\NaverMovie_Crawl\NaverMovie_Crawl\obj\x86\Debug\NaverMovie_Crawl.pdb
