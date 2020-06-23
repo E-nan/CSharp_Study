@@ -4,3 +4,6 @@
 ### Windows Form
 - Windows Form 지역화 (Localization)
   - https://six605.tistory.com/511
+- 확장 메서드
+
+- 암호화 / 
