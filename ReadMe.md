@@ -40,4 +40,7 @@
 
 - 암호화 / 복호화
 
+- 클래스 상속 되는것에 찾기(?)
+ foreach (var t in Assembly.GetAssembly(typeof(Dock)).GetTypes()
+                .Where(t => t.IsClass && t.IsSubclassOf(typeof(Dock))))
 
