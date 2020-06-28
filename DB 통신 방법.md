@@ -29,3 +29,12 @@ ORM => Object Relation Mapping (객체 관계 매핑)
   -2) Code First 방식
   - Code 에서 Database를 생성해 Application을 개발
   - => 개발자가 Database를 설계 및 구성하고, 퍼포먼스는 예외에 두고 사용한다.(추후 프로파일링, 툴 등을 사용해 퍼포먼스 향상)
+  
+  
+  
+  
+  
+  
+  
+- 커넥션 스트링(Conection String)
+  - https://www.connectionstrings.com/ <== DB에 따른 커넥션 스트링을 볼 수 있다.
