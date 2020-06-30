@@ -18,6 +18,7 @@ ORM => Object Relation Mapping (객체 관계 매핑)
 3. Entity Framwork
 - Entity Framwork 1.0 ~ 6.0 => .Net Framwork
 - ASP.NET Core => 7.0 => EntityFramework Core
+- EF에서 CRUD를 하기 위해 LINQ를 이용하는데 이를 Linq to Entity 라고 하며, 직접 쿼리 또한 사용이 가능하다.
 
 - 개발방식
   - 1) Database First 방식
