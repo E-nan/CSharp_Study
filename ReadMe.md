@@ -1,6 +1,12 @@
 # C# 정리
 - c#을 공부하면서 메모해 두는 ReadMe 파일.
 ***
+### 참고 사이트
+- 강의사이트
+  - https://www.inflearn.com/ => 인프런
+  - https://www.udemy.com/ko/ => 유데미
+  
+
 ### Convension
 - 
 ***
