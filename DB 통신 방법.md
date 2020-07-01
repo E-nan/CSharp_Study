@@ -32,7 +32,8 @@ ORM => Object Relation Mapping (객체 관계 매핑)
   - => 개발자가 Database를 설계 및 구성하고, 퍼포먼스는 예외에 두고 사용한다.(추후 프로파일링, 툴 등을 사용해 퍼포먼스 향상)
   
   
-  
+4. Dapper
+- (EF와 비교했을때)모델링은 XML ORM, 역할은 Dapper가 한다.
   
   
   
