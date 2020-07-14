@@ -10,5 +10,7 @@
 
 ## Window 기능
 - 단축키
+  - Windows + . => 윈도우 이모지
   - Windows + E => 윈도우 탐색기
   - Windows + Shift + S => 캡처 기능(영역 지정, 자유 도형 모양, 창, 전체화면)
+  
