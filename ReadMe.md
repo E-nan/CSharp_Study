@@ -52,9 +52,9 @@
 - 코드 스니핏 (Code Snippit)
   - 작은 조각이라는 뜻이며, 개발시 여러 형태의 코드조각들을 Visual Studio가 제공해주는것을 말한다.
   - For문, Foreach문, While문, 랜덤값 생성 등등.. 이러한 기능들을 간단한 조작으로 여러 라인에 걸친 코드를 생성할 수 있다.
-  - ex)
   - prop + tab, tab => get, set 프로퍼티 생성
   - for + tab, tab => for문 생성
+  - cw + tab, tab => Console.WriteLine(); 생성
 
 - 키보드를 이용해 스크롤을 조절하는 법
   - 컨트롤 + 상, 하 방향키
