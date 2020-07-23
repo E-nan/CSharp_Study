@@ -16,8 +16,8 @@
 -  https://referencesource.microsoft.com/ => .Net Framework 4.8 공식 오픈 레퍼런스 소스 문서
 
 ## 추천 교재
-- [x]시작하세요 C# 8.0
-- [ ]헤드퍼스트 C#
+- [x] 시작하세요 C# 8.0
+- [ ] 헤드퍼스트 C#
 
 ## C# 커뮤니티, 알아두면 좋은 사이트
 - https://okky.kr/              => OKKY 개발자 커뮤니티
